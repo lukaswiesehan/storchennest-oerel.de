@@ -1,0 +1,1 @@
+type DayTime = 'day' | 'night'
