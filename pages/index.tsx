@@ -31,7 +31,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:hidden items-center space-y-4 mt-16">
+          <div className="md:hidden space-y-4 mt-16">
             <p>Anregungen oder Fehler?</p>
             <button
               onClick={() => router.push('mailto:info@storchennest-oerel.de')}
