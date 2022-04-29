@@ -6,7 +6,8 @@ export const Container = ({children, ...customMeta}) => {
 
   const meta = {
     title: 'Storchennest Oerel',
-    description: '',
+    description:
+      'Das bisher einzige Storchennest in Oerel wurde im Herbst 2019 im Mühlenbruchsweg durch die Anwohner der Straße errichtet. Bereits im darauffolgenden Frühjahr zog das Storchenpaar ein, das nun jährlich in dieses Nest zurückkehrt.',
     url: 'https://storchennest-oerel.de',
     name: 'Storchennest Oerel',
     image: 'https://storchennest-oerel.de/images/banner.jpg',
