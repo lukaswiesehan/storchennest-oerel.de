@@ -22,7 +22,7 @@ export const Container = ({children, ...customMeta}) => {
   }
 
   return (
-    <div>
+    <div className="relative overflow-x-hidden">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
