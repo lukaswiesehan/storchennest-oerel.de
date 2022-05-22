@@ -13,17 +13,23 @@ export const Weather = ({className}: {className: string}) => {
       {error ? (
         <div>ERROR</div>
       ) : data ? (
-        <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:justify-between sm:space-x-8 md:flex-col md:space-x-0 md:space-y-2 xl:flex-row xl:space-y-0 xl:space-x-8">
+        <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:justify-between sm:space-x-8 md:flex-col md:space-x-0 md:space-y-2">
           <div className="flex items-center space-x-2">
-            <WeatherIcon {...data.icon} />
+            <div className="w-6">
+              <WeatherIcon {...data.icon} />
+            </div>
             <span>{data.description}</span>
           </div>
           <div className="flex items-center space-x-2">
-            <TemperatureIcon className={`h-5 fill-current ${data.temperature > 20 ? 'text-orange-400' : 'text-sky-400'}`} />
+            <div className="w-6">
+              <TemperatureIcon className={`h-5 fill-current ${data.temperature > 20 ? 'text-orange-400' : 'text-sky-400'}`} />
+            </div>
             <span>{`${data.temperature.toFixed(1).replace('.', ',')} °C`}</span>
           </div>
           <div className="flex items-center space-x-2">
-            <WindIcon className="h-5 fill-current text-stone-400" />
+            <div className="w-6">
+              <WindIcon className="h-5 fill-current text-stone-400" />
+            </div>
             <span>{`${data.wind.speed.toFixed(0)} km/h aus ${data.wind.direction}`}</span>
           </div>
         </div>
