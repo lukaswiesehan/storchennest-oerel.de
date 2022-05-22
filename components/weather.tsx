@@ -11,7 +11,7 @@ export const Weather = ({className}: {className: string}) => {
     <div className={`md:pb-8 xl:pb-16 max-w-sm sm:max-w-md md:max-w-full ${className}`}>
       <h3 className="font-display text-stone-800 text-xl border-b border-stone-300 pb-4 mb-4">Aktuelles Wetter am Storchennest</h3>
       {error ? (
-        <div>ERROR</div>
+        <div>Fehler in den Wetterdaten...</div>
       ) : data ? (
         <div className="flex flex-col space-y-2 sm:flex-row sm:space-y-0 sm:justify-between sm:space-x-8 md:flex-col md:space-x-0 md:space-y-2">
           <div className="flex items-center space-x-2">
@@ -34,7 +34,7 @@ export const Weather = ({className}: {className: string}) => {
           </div>
         </div>
       ) : (
-        <div>LOADING</div>
+        <div>Lädt Wetterdaten...</div>
       )}
     </div>
   )
