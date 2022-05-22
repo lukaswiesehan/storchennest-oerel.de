@@ -21,7 +21,7 @@ export const Infos: FC<{className?: string | ''}> = ({className}) => {
           Zufüttern der Junge gestört werden sollte.
         </p>
       </div>
-      <div className="flex items-center space-x-8 text-red-700 font-semibold">
+      <div className="space-y-3 sm:space-y-0 sm:flex sm:items-center sm:space-x-8 text-red-700 font-semibold">
         <div className="flex items-center space-x-2">
           <BreadIcon className="h-5 fill-current text-red-300" />
           <span>Nicht zufüttern!</span>
