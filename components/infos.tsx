@@ -8,7 +8,7 @@ export const Infos: FC<{className?: string | ''}> = ({className}) => {
     <div className={`space-y-8 md:space-y-16 ${className}`}>
       <div className="leading-relaxed space-y-3 text-lg">
         <p>
-          Das bisher einzige Storchennest in Oerel wurde im Herbst 2019 im Mühlenbruchsweg durch die Anwohner der Straße errichtet. Bereits im
+          Das erste Storchennest in Oerel wurde im Herbst 2019 im Mühlenbruchsweg durch die Anwohner der Straße errichtet. Bereits im
           darauffolgenden Frühjahr zog das Storchenpaar ein, das nun jährlich in dieses Nest zurückkehrt.
         </p>
         <p>
