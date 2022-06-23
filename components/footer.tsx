@@ -7,10 +7,10 @@ export const Footer = () => {
         <p>&copy; Jonte Riggers & Lukas Wiesehan 2022</p>
         <ul className="flex space-x-4">
           <li>
-            <Link href="/impressum">Impressum</Link>
+            <Link href="https://lukaswiesehan.de/legal"><a target="_blank" rel="noreferrer">Impressum</a></Link>
           </li>
           <li>
-            <Link href="/datenschutz">Datenschutz</Link>
+            <Link href="https://lukaswiesehan.de/privacy"><a target="_blank" rel="noreferrer">Datenschutz</a></Link>
           </li>
         </ul>
       </div>
