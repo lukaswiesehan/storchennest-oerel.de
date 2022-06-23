@@ -4,7 +4,7 @@ export const Table: FC<{className?: string | ''}> = ({className}) => {
   const rows = [
     {jahr: '2020', ankunft: '15. März & 05. April', junge: '4 Junge, davon 2 gestorben', abflug: '15. August'},
     {jahr: '2021', ankunft: '26. Februar', junge: '2 Junge', abflug: '23. August'},
-    {jahr: '2022', ankunft: '26. Februar & 13. März', junge: '', abflug: ''}
+    {jahr: '2022', ankunft: '26. Februar & 13. März', junge: '5 Junge, davon 1 abgestoßen', abflug: ''}
   ]
 
   return (
