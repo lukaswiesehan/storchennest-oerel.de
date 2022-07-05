@@ -1,5 +1,5 @@
 export const LiveStream = ({className}: {className: string}) => {
-  const videoId = 'izP6Rh-9jXY'
+  const videoId = 'rlKo_etTSpM'
 
   return (
     <div className={`p-2 bg-white rounded-2xl shadow-xl shadow-stone-500/10 ${className}`}>
